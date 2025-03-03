@@ -1,0 +1,15 @@
+services:
+  frontend:
+    image: nginx
+    profiles: [frontend]
+
+  phpmyadmin:
+    image: phpmyadmin
+    depends_on: [db]
+    profiles: [debug]
+
+  backend:
+    image: node
+
+  db:
+    image: mysql
