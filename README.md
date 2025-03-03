@@ -1,3 +1,6 @@
+# https://docs.docker.com/compose/how-tos/profiles/
+
+```bash
 (base) ┌──(klx㉿kali)-[~/compose-profiles]
 └─$ docker compose up -d        
 [+] Running 3/3
@@ -64,4 +67,5 @@
  ✔ Network compose-profiles_default         Removed                  0.5s 
 
 (base) ┌──(klx㉿kali)-[~/compose-profiles]
-└─$ 
+└─$
+```
